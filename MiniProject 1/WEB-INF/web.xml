@@ -1,0 +1,52 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>show_request_header</servlet-name>
+		<servlet-class>ShowRequestHeader</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>show_request_header</servlet-name>
+		<url-pattern>/show_request_header</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>asgn1_part3</servlet-name>
+		<servlet-class>Assignment1Part3</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>asgn1_part3</servlet-name>
+		<url-pattern>/asgn1_part3</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>asgn1_part4</servlet-name>
+		<servlet-class>Assignment1Part4</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>asgn1_part4</servlet-name>
+		<url-pattern>/asgn1_part4</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>asgn1_part5</servlet-name>
+		<servlet-class>Assignment1Part5</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>asgn1_part5</servlet-name>
+		<url-pattern>/asgn1_part5</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>asgn1_part6</servlet-name>
+		<servlet-class>Assignment1Part6</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>asgn1_part6</servlet-name>
+		<url-pattern>/asgn1_part6</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+</web-app>

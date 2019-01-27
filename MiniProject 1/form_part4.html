@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<style type="text/css">
+		#wrapper{
+			margin: 10% 30%;
+		}
+		.submit-btn{
+			text-align: center;
+		}
+		.form-section{
+			padding: 1% 1%;
+			background-color: rgb(235,235,235);
+		}
+		input,textarea{
+			margin-left: 5%;
+		}
+
+	</style>
+</head>
+<body>
+<div id="wrapper">
+	<div class="form-section">
+	<form action="asgn1_part4" method="post" id="student-form">
+
+		<label>Name :</label>  <input type="text" name="Name" required><br/><br/>
+		<label>Email :</label>  <input type="email" name="Email" required><br/><br/>
+
+		<label>Password :</label>  <input type="Password" name="password" required><br/><br/>
+
+		<label>Confirm Password :</label>  <input type="password" name="confirm Password" required><br/><br/>
+
+		<label>Upload Your Picture :</label>  <input type="file" name="Profile Picture"><br/><br/>
+
+		<label>Gender :</label>  
+		<input type="radio" name="Gender" value="male" checked> Male
+		<input type="radio" name="Gender" value="female"> Female
+		<input type="radio" name="Gender" value="other"> Other<br/><br/>
+
+		<label>Select Country :</label>  
+		<select name="Country">
+	    <option value="India">India</option>
+	    <option value="United States">United States</option>
+	    <option value="United Kingdom">United Kingdom</option>
+	    <option value="China">China</option>
+	  	</select>
+		<br/><br/>
+
+		<label>Hobby :</label>
+		<input type="checkbox" name="Hobbies" value="Cricket"> Cricker
+  		<input type="checkbox" name="Hobbies" value="Football"> Football <br/><br/>
+
+  		<label style="float: left">Address :</label> 
+  		<textarea rows="4" cols="50" name="Address" form="student-form">Enter your address here...</textarea><br/><br/>
+  		<div class="submit-btn">
+  		<input type="submit" value="Submit">
+  		</div>
+	</form>
+	</div>
+</div>
+</body>
+</html>
