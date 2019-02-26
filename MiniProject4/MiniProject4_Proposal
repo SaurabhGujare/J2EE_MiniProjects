@@ -1,0 +1,49 @@
+Part 1 - Reading Assignment (More Servlets and JSP)
+
+  Chapter 04. Programmatic Security
+    https://www.safaribooksonline.com/library/view/core-servlets-and/0131482602/ch04.html
+
+ 
+
+Part 2 - Reading Assignment (More Servlets and JSP)
+  Chapter 7. Tag Libraries: The Basics
+
+    https://www.safaribooksonline.com/library/view/core-servlets-and/0131482602/ch07.html
+  Chapter 8. Tag Libraries: Advanced Features
+
+    https://www.safaribooksonline.com/library/view/core-servlets-and/0131482602/ch08.html
+Part 3 - Reading Assignment (Spgring MVC Reference Documentation)
+
+  Chapter07 - The IoC container (7.1, 7.2, 7.3, 7.4, 7.5)                   
+
+    https://docs.spring.io/spring/docs/4.3.14.RELEASE/spring-framework-reference/htmlsingle/#beans
+
+ 
+
+Part 4 - Programming Assignment
+
+Redo HW2–Part5 by utilizing a CustomTag in the JSP page to display the data retrieved from CSV. The name of the CSV file is to be passed to CustomTagHandler class either as an attribute or body content (you decide which one to use). In the doTag method, you simply read the name of the CSV file using CsvJdbc, and retrieve all the data and display on the JSP page. You may create the tabular format in the doTag method.
+
+Add a Programming Security [Programming Security is a reading assignment in Part 1]
+
+ 
+
+Part 5 - Programming Assignment
+
+Convert HW2–Part 7 to Spring MVC Application.
+
+Map all the controllers using SimpleUrlHandlerMapping.
+
+ 
+
+Part 6 - Programming Assignment
+
+Redo Part 5 of this assignment – Map all the controllers using ControllerClassNameHandlerMapping.
+
+ 
+
+Part 7 - Programming Assignment
+
+Redo Part 5 of this assignment – Map all the controllers using BeanNameUrlHandlerMapping.
+
+ 

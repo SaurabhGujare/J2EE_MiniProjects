@@ -1,0 +1,60 @@
+
+<web-app>
+
+    <servlet>
+            <servlet-name>shoppingCart</servlet-name>
+            <servlet-class>com.neu.edu.servlet.ShoppingCart</servlet-class>
+    </servlet>
+    <servlet-mapping>
+            <servlet-name>shoppingCart</servlet-name>
+            <url-pattern>/shoppingCart</url-pattern>
+    </servlet-mapping>
+    	
+    <servlet>
+            <servlet-name>hw3_part6</servlet-name>
+            <servlet-class>com.neu.edu.servlet.ReadCsv</servlet-class>
+    </servlet>
+    <servlet-mapping>
+            <servlet-name>hw3_part6</servlet-name>
+            <url-pattern>/hw3_part6</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+            <servlet-name>hw3_part8</servlet-name>
+            <servlet-class>com.neu.edu.servlet.MovieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+            <servlet-name>hw3_part8</servlet-name>
+            <url-pattern>/hw3_part8</url-pattern>
+    </servlet-mapping>
+        
+    
+<!--    --> 
+    <security-constraint>
+        
+      <web-resource-collection>
+         <web-resource-name>Homework3</web-resource-name>
+         <url-pattern>/hw3_part8</url-pattern> 
+         <http-method>POST</http-method>
+      </web-resource-collection>
+
+      <auth-constraint>
+         <role-name>saurabhRole123</role-name>
+      </auth-constraint>
+      
+   </security-constraint>
+   
+   <security-role>
+      <role-name>saurabhRole123</role-name>
+   </security-role>
+   
+   <login-config>
+      <auth-method>BASIC</auth-method> 
+      <realm-name>Authorized Users Only</realm-name>
+   </login-config>
+ <!-- -->  
+    <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    </welcome-file-list> 
+
+</web-app>

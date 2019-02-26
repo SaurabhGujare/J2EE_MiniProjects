@@ -1,0 +1,49 @@
+Part 1. Reading Assignment (JSTL – Attached)
+
+The JavaServer Pages Standard Tag Library (JSTL) encapsulates core functionality common to many JSP applications. Instead of mixing tags from numerous vendors in your JSP applications, JSTL allows you to employ a single, standard set of tags. This standardization allows you to deploy your applications on any JSP container supporting JSTL and makes it more likely that the implementation of the tags is optimized. JSTL has tags such as iterators and conditionals for handling flow control, tags for manipulating XML documents, internationalization tags, tags for accessing databases using SQL, and commonly used functions.
+
+ 
+
+Part 2. Expression Language (Reading Assignment – Attached)
+
+JSP 2.0 introduced a shorthand language for evaluating and outputting the values of Java objects that are stored in standard locations. This expression language (EL) is one of the two most important new features of JSP 2.0; the other is the ability to define custom tags with JSP syntax.
+
+ 
+
+Part 3.1. Reading Assignment (The JSP Page Directive)
+
+   http://pdf.coreservlets.com/JSP-page-Directive.pdf
+
+ 
+
+Part 3.2. Reading Assignment (Declarative Web Application Security)
+
+  http://pdf.moreservlets.com/More-Servlets-and-JSP-Chapter-07.pdf
+
+  
+
+Part 4. Programming Assignment
+
+Create a JSP page that uses at least 3 JSTL tags from each tag library group, i.e.,3 tags from Core Tag Lib, 3 tags from Formatting Tag Lib, etc. You could use random content on the JSP page.
+
+https://www.javatpoint.com/jstl
+
+ 
+
+Part 5. Programming Assignment
+
+Redo HW2-Part1 using MVC, and replace the scriptlet tags with JSTL and EL.
+
+ 
+
+Part 6. Programming Assignment
+
+Redo HW2-Part5 using MVC, and replace the scriptlet tags with JSTL and EL.
+
+ 
+
+Part 7. Programming Assignment
+
+Redo HW2-Part7 using MVC, and replace the scriptlet tags with JSTL and EL.
+
+Add a Declarative Security.
